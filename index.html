@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="background">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <div class="page">
+        <nav class="top-nav">
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="work.html">Work</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        <section class="video-hero">
+            <div class="video-frame">
+                <video id="hero-video" class="hero-video" autoplay muted loop playsinline preload="auto"
+                    poster="images/hero-poster.jpg">
+                    <source src="Videos/BellaFirst.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+                <div class="video-overlay"></div>
+
+                <!-- Sound toggle button -->
+                <button id="sound-toggle" class="sound-toggle" aria-label="Toggle sound">
+                    Unmute
+                </button>
+
+                <div class="video-content">
+                    <div class="eyebrow">Artist Dick</div>
+                    <h1>Creative Dick</h1>
+                    <p>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum
+                        fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="work.html" class="cta-btn">View Work</a>
+                        <a href="contact.html" class="secondary-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

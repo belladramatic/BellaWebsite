@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella | Contact</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="contact-page">
+    <div class="background">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <div class="page">
+        <nav class="top-nav">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="work.html">Work</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+
+        <section class="contact-card">
+            <div class="contact-left">
+                <div>
+                    <div class="eyebrow">Artist Contact</div>
+                    <h1>Let’s build something gay.</h1>
+                    <p class="intro">
+                        Temporibus autem quibusdam et aut officiis debitis
+                        aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non
+                        recusandae.
+                    </p>
+                </div>
+
+                <div class="info-block">
+                    <div class="info-item">
+                        <span>Email</span>
+                        <p>yourbusiness@email.com</p>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Instagram</span>
+                        <a href="#">@yourhandle</a>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Response Time</span>
+                        <p>Within 2–3 business days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <h2>Send an inquiry</h2>
+                <p class="subtext">Fill out the form below</p>
+
+                <form class="contact-form" action="https://formspree.io/f/xqendqpa" method="POST">
+                    <input type="hidden" name="subject" value="New Artist Collaboration Inquiry" />
+
+                    <div class="two-col">
+                        <div class="field-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required />
+                        </div>
+
+                        <div class="field-group">
+                            <label for="artist_name">Artist / Stage Name</label>
+                            <input type="text" id="artist_name" name="artist_name" />
+                        </div>
+                    </div>
+
+                    <div class="two-col">
+                        <div class="field-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required />
+                        </div>
+
+                        <div class="field-group">
+                            <label for="instagram_or_website">Instagram / Website</label>
+                            <input type="text" id="instagram_or_website" name="instagram_or_website" />
+                        </div>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="collab_type">Collaboration Type</label>
+                        <select id="collab_type" name="collab_type" required>
+                            <option value="">Select one</option>
+                            <option value="feature">Feature</option>
+                            <option value="booking">Booking</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="design">Design / Creative Work</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="field-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
